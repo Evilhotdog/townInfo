@@ -1,8 +1,8 @@
-from csv import *
+import csv
 def createList():
 	#take the csv file and convert it to a list of lists
 	with open("townInfo.csv","r") as read_obj:
-		csv_reader = reader(read_obj)
+		csv_reader = csv.reader(read_obj)
 		townInfoList = list(csv_reader)
 	return (townInfoList)
 def find():
