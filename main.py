@@ -57,6 +57,7 @@ goAgain = "Yes"
 while goAgain in ["Yes","Y"]:
 	while True:
 		selection2 = int(input("What would you like to do? 1 to find an entry. 2 to add an entry. 3 to print the whole table \n"))
+		#makes me wish python had switch statements
 		if selection2 == 1:
 			find()
 			break
